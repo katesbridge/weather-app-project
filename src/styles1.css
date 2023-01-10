@@ -85,3 +85,9 @@ a {
   text-decoration: none;
   color: cornflowerblue;
 }
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}

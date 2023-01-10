@@ -31,19 +31,21 @@ li {
   line-height: 1;
   list-style: none;
 }
-.temperature {
+#temperature {
   font-size: 64px;
-  font-weight: 400;
-  line-height: 1;
 }
 .units {
-  position: relative;
   top: -32px;
+  position: relative;
 }
-weather-icon {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
+#weather-icon {
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+.overview {
+  margin-top: -19px;
 }
 .weather-search {
   margin-bottom: 10px;

@@ -57,7 +57,7 @@
         </div>
         </form>
         <h1 id="city">
-          Kyiv, Ukraine
+          Kyiv
         </h1>
         <ul>
           <li id ="date">
@@ -69,12 +69,16 @@
         </ul>
         <div class="row">
           <div class="col-6">
+            <div class="d-flex weather-temperature">
             <img
-              class="weather-icon"
+              id="weather-icon"
               src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
               alt="Cloudy"
             />
-            <span class="temperature" id="temperature">4</span><span class="units">°C</span>
+             <div class ="overview">
+             <span id="temperature"></span><span class="units"> °C</span>
+             </div>
+          </div>
           </div>
           <div class="col-6">
             <ul>
@@ -123,5 +127,6 @@
     </div>
    <p class="creds"> This project was created by <a href="https://github.com/katesbridge" class="cred-links">Kateryna Yakovenko</a> and is <a href= "https://github.com/katesbridge/weather-app-project"class="cred-links">open-sorced on GitHub</a> and hosted on <a href = "https://app.netlify.com/" class="cred-links">Netlify</a> 
    </p>
+    <script src="src/index.js"></script>
   </body>
 </html>

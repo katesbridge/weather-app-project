@@ -16,6 +16,9 @@ h1 {
   margin: 0;
   margin-bottom: 5px;
 }
+#city {
+  margin-top: 10px;
+}
 ul {
   margin: 0, 0, 10px;
   padding: 0;
@@ -72,8 +75,11 @@ a {
 .bottom {
   margin-top: 17px;
 }
-#gitHub-button {
-  display: block;
-  margin: 0 auto;
-  width: fit-content;
+.creds {
+  text-align: center;
+  font-size: smaller;
+}
+.cred-links {
+  text-decoration: none;
+  color: cornflowerblue;
 }

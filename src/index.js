@@ -68,7 +68,7 @@ function displayForecast() {
       <div class="col-2">
         <div class="weather-forecast-date">${day}</div>
         <img
-          src="https://openweathermap.org/img/wn/02d@2x.png"
+          src="http://openweathermap.org/img/wn/02d@2x.png"
           alt=""
           width="42"
         />
@@ -146,3 +146,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 searchCity("Kyiv");
+displayForecast();
